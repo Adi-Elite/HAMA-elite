@@ -1,0 +1,270 @@
+footer{
+    bottom: 0px;
+    width: auto;
+    background: rgb(63, 62, 62);
+    display: block;
+    position: relative;
+    width:100%;
+    }
+    .main-content{
+        display: flex;
+        width: 100%;
+        color: #ffffff;
+    }
+
+    .main-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+
+    }
+
+    .box h2{
+        font-size: 1.125rem;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .box .content{
+        margin: 20px 0 0 0;
+
+    }
+    .organization{
+        margin: 10px 0 0; 
+    }
+    .footer .main-content h5{
+        color:  #fc8c40;
+        margin-left: 40px;
+        font-size: 20px;
+      
+    }
+    
+    .footer .main-content li{
+        list-style: none;
+        text-align: left;
+       
+    }
+    
+        
+  
+    .footer .main-content a{
+
+        text-decoration: none;
+
+       
+        color: #fff;
+    }
+
+    .right .content a{
+
+        text-decoration: none;
+
+        text-align: justify;
+
+    }
+
+
+.optional{
+
+    text-align: center;
+    width: 400px;
+    height: 250px;
+    background-color: #fff;
+    padding: 0;
+    margin-top: 50px;
+    margin-left: 428px;
+
+    
+}
+
+
+.dropdwon select{
+
+    margin-top: 50px;
+    width: 200px;
+    height: 40px;
+}
+
+    /* .left .content .social a span{
+
+        height: 40px;
+        width: 40px;
+        background: #ffffff;
+        line-height: 40px;
+        text-align: center;
+        font-size: 18px;
+        border-radius: 5px;
+        transition: 0.3s;
+    }
+
+    .left .content .social a span:hover{
+        background: #2705e6;
+    } */
+
+    .footer-bottom{
+       background: #303036;
+       color: #686868;
+       height: 50px;
+       width: 100%;
+       text-align: center;
+       position: absolute;
+       left: 0px;
+       padding-top: 20px;
+       color: #ffffff;
+    }
+
+
+    /* .footer .main-content .left .content li{
+        text-decoration: none;
+    } */
+
+    .text input[type=submit]{
+      border-radius: 4px;
+      background: blue;
+
+    }
+    .box .down-table{
+        position: static;
+        margin-top: 2%;
+    }
+
+    .box .down-table .colume-one{
+        width: 300px; 
+        background-color: #fff; 
+        text-align: left;
+        position: absolute;
+
+    }
+    .box .down-table .colume-one a{
+        text-decoration: none;
+        color: gray;
+    }
+
+    .box .down-table .colume-two{
+
+        text-align: right; 
+        width: 300px; 
+        background-color: #fff;
+        margin-left: 460px;
+        position: absolute; 
+        display: block;
+
+
+    }
+    .box .down-table .colume-two .text{
+        box-sizing: border-box;
+        display: block;
+
+    }
+
+    .box .down-table .colume-three{
+        text-align: center; 
+        width: 300px;  
+        background-color: #fff;
+        margin-left: 920px;
+    }
+    .header-one .header-text ul a{
+        text-decoration: none;
+    }
+   .header-one .header-text  li:before{
+
+        content: "";
+        border-color: transparent#3d3d3d;
+        border-style: solid;
+        border-width: 0.35em 0 0.35em 0.45em;
+        display: block;
+        height: 0;
+        width: 0;
+        left: 1;
+        top: 0.8em;
+        position: relativeab;
+        display: inline-block;
+
+    }
+
+   .header-link .header-one{
+
+    
+    margin-left: 0px; 
+   
+    text-align: center; 
+   } 
+    
+   .header-link .header-text{
+
+    line-height: 50px;
+    border-width: 0.35em 0 0.35em 0.45em;
+    text-align: left;
+   }
+
+   .header-link .header-one h2{
+     
+    text-align: center;
+    background-color: #fc8c40 ;
+
+   }
+.header-link{
+   background-color: #ffffff;
+    background-size: cover;
+    position: static;
+    
+}
+
+   .header-link .header-text ul{
+    list-style-type:none;
+
+   }
+   .down-table .colume-one{
+    height: 240px;
+   }
+   .down-table .colume-two{
+    height: 240px;
+   }
+   .down-table .colume-three{
+    height: 240px;
+   }
+
+   .down-table .colume-one h4{
+
+    background:  #fc8c40; 
+    text-align: center;
+
+   }
+   .down-table .colume-one .text{
+
+    width: 250px;
+    margin-left: 20px;
+   }
+
+   
+
+   .down-table .colume-two h4{
+
+    background:  #fc8c40; 
+    text-align: center;
+
+   }
+
+   .down-table .colume-two .text{
+
+    width: 250px;
+    margin-left: 40px;
+   }
+
+   .down-table .colume-three h4{
+
+    background:  #fc8c40; 
+    text-align: center;
+
+   }
+
+   .down-table .colume-three .text{
+
+    width: 250px;
+    margin-left: 20px;
+   }
+
+  .colume-two .text .custom-select {
+    position: relative;
+    font-family: Arial;
+    width: 100%;
+  }

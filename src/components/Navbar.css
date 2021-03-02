@@ -1,0 +1,63 @@
+.box{ width: 90%;
+    margin-left: 50px;
+    box-sizing: border-box;
+
+}
+.nav{
+   display: flex;
+   position: relative;
+
+   box-shadow: 0px 3px  #fc8c40;
+
+
+
+}
+.nav li{
+   display: inline-block;
+   margin-top: 50px;
+   word-spacing: 0px;
+   position: relative;
+
+
+
+}
+.box .nav{
+   background: #fff;
+}
+
+.box .nav::before::after{
+   display: table;
+   content: "";
+   box-sizing: border-box;
+}
+.box .nav img{
+   display: block;
+   max-width: 100%;
+   height: auto;
+}
+
+.box .nav ul{
+   margin-left: 230px;
+   display: inline-block;
+
+
+}
+
+.box .nav b{
+  position: absolute;
+   text-transform: uppercase;
+   margin-top: 40px;
+   text-align: center;
+   font-size: 24px;
+   color: rgb(221, 83, 33);
+}
+.box .nav a{
+color: #000;
+}
+
+.box .nav li:hover{
+
+   background-color:  #fc8c40;
+   box-sizing: border-box;
+
+}

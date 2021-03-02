@@ -1,0 +1,58 @@
+header{
+
+    color: #fff;
+    background-color: rgb(48, 44, 44);
+    height: 50px;
+    display: flex;
+    font-size: 12px;
+   
+}
+.left_menu li{
+    display: inline-block;
+    margin-top: 15px;
+
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+.left_menu a{
+    text-decoration: none;
+    color: #ccc;
+}
+header ul{
+    position: absolute;
+    display: flex;
+    list-style-type: none;
+    margin-left: 57%;
+}
+header h4{
+
+    margin-top: 10px;
+    margin-left: 50px;
+
+    height: 20px;
+
+
+}
+
+header a{
+
+    text-align: righ;
+
+    margin-top: 10px;
+
+
+}
+header img{
+    letter-spacing: 20px;
+
+}
+
+header .search{
+
+    margin-top: 5px;
+    margin-left: 63%;
+
+}
+
