@@ -1,0 +1,30 @@
+.right{
+    padding:"0.5em";
+    display: "flexbox";
+    
+}
+h1{
+    text-align: left;
+}
+
+
+.left{  
+    contain: "";
+    padding:0rem 3rem ;
+    flex-direction: row;
+    text-align: left;
+    width: 100%;
+    padding: 0px 50px;
+    display: flex;
+    justify-content:space-between; 
+    box-sizing: border-box;
+} 
+.list-group{
+    width: 10rem;
+}
+
+.card-left{
+    padding:"0px 30px";
+    margin-left: 100px;
+    
+}

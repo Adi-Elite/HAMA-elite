@@ -25,6 +25,8 @@ function App() {
         <Footer/>
       </FirestoreProvider>
     </div>
+    </FirestoreProvider>
+   
   );
 }
 
