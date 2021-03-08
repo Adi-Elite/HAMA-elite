@@ -7,6 +7,17 @@
 .icons{
     display:flex;
     justify-content: space-around;
+    width: 15rem;
     background-color: orange;
     color:black;
+}
+
+.card-input{
+    width:100%;
+    height:2rem;
+}
+
+.card-checkbox{
+    display: flex;
+    justify-content: flex-start;
 }
