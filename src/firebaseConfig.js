@@ -2,7 +2,7 @@ import firebase from 'firebase'
 import 'firebase/auth'
 import 'firebase/app'
 
-  var firebaseConfig = {
+ export const  firebaseConfig = {
     apiKey: process.env.REACT_API_KEY,
     authDomain: process.env.REACT_AUTHDOMAIN,
     projectId: process.env.REACT_PROJECT_ID,
@@ -21,5 +21,6 @@ import 'firebase/app'
   appId: "1:1078870082328:web:ea5e689f2b28ffd5d1546d",
   measurementId: "G-5SR936M2F5"
 });
-const analytics = firebase.analytics();
+export const analytics = firebase.analytics();
 export const auth= firebase.auth();
+export const firestorage = firebase.storage();

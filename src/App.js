@@ -6,18 +6,27 @@ import{BrowserRouter as Router,Route,Switch} from 'react-router-dom';
 import {Header} from "./components/Header.js";
 import {Navbar} from "./components/Navbar.js";
 import {Footer} from './components/Footer.js';
-import { Aboutus } from './components/Aboutus.js'
+import { Aboutus } from './components/Aboutus.js';
+import {FirestoreProvider} from '@react-firebase/firestore';
+import { firebaseConfig }from "./firebaseConfig.js";
+import firebase from "firebase/app";
+ 
+
 
 
 function App() {
   return (
-    <div>
+
+    <FirestoreProvider {...firebaseConfig} firebase={firebase}>
+       <div>
         <Header/>
         <Navbar/>
         <Aboutus/>
          {/* <SignIn/> */}
         <Footer/>
     </div>
+    </FirestoreProvider>
+   
   );
 }
 
